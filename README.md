@@ -1,6 +1,8 @@
 # Diffusion Simulator project.
 This project serves as a lighweight demonstration of how conditional diffusion models, like Stable-diffusion and the likes, work. This demonstration uses a lightweight diffusion model to generate 2D coordinate sequences by denoising 2D point clouds, based on the shape entered as a text prompt by the user.
 
+Deployed project: https://srijito354--diffusion-gradio-ui.modal.run/
+
 ## Features:
     1. **Conditional diffusion model**: Using text embeddings (from BERT) to guide the generation procedure.
     2. **Gradio UI**: Support for running the model interactively for people who want to see the diffusion procedure in action.
